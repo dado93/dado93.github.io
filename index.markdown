@@ -4,3 +4,12 @@
 
 layout: home
 ---
+
+<hr/>
+<p>
+{% for post in site.posts %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    {{ post.excerpt }}
+<hr/>
+{% endfor %}
+</p>
