@@ -29,9 +29,36 @@ github_username:  dado93
 
 # Build settings
 #theme: minima
-remote_theme: sighingnow/jekyll-gitbook
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+#remote_theme: pages-themes/cayman@v0.2.0 #sighingnow/jekyll-gitbook
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      author_profile: true
+
+footer:
+  links:
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dado93"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/dado93"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

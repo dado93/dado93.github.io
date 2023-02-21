@@ -1,6 +1,12 @@
 ---
-layout: post
-title:  "PSoC Tutorial"
+layout: single
+title:  "PSoC Introduction"
 date:   2023-02-08 15:26:00 +0100
-categories: intro
+categories: psoc
+author: "Davide Marzorati"
 ---
+
+
+I would like to start the first series of my blog posts about the world of [PSoC](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/){:target="_blank"}{:rel="noopener noreferrer"}. PSoC is an acronym that stands for Programmable System on Chip. 
+## What are embedded systems?
+
