@@ -1,29 +1,36 @@
 ---
 layout: default
 title:  "Welcome to Jekyll!"
-date:   2023-01-22 22:13:12 +0100
-categories: jekyll update
+date:   2023-02-27 22:49:12 +0100
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Last year I decided to install a mechanical ventilation system in my house. My house was built in the 1960’s, and unfortunately it suffers from low exposition to sun as it exposed towards East, and as such in winter time sun is present only for a few hours per day in the afternoon. Therefore, when it is not possible to properly ventilate the house by opening the windows (basically because it is too much cold outside and it would not be feasible to stay inside with the windows open) we would reach uncomfortable indoor humidity levels, with peaks around 80-85% of indoor relative humidity. 
 
-Jekyll requires blog post files to be named according to the following format:
+After three years into living in this house, it became clear that such humidity levels cause (muffa) in specific parts of the house and no temporary solution(e.g., ammonia, re-painting, ..) would solve these problems and I decided to try to install a mechanical ventilation system to decrease humidity levels and reduce the presence of (muffa).
 
-`YEAR-MONTH-DAY-title.MARKUP`
+So, how does a mechanical ventilation system works? It is simply a *****smart***** pump that pumps air into and out of your room. 
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+[Inserire qui figura semplice del sistema di ventilazione meccanica]
 
-Jekyll also offers powerful support for code snippets:
+Air coming from the outside is filtered and warmed or cooled (depending on the detected temperature), and air coming from the inside is simply pumped outside. In modern houses, mechanical ventilation is installed by default, at least in the region where I live. This is because (infissi) are and there is no flow of air coming from outside, causing much more problems than mine with (muffa). In these cases, centralised mechanical ventilation systems are installed.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+[Inserire qui figura semplice del sistema di ventilazione meccanica controllata]
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+In my case, it was not feasible to install a centralised mechanical ventilation system as it would have required too much construction work, and so I decided to install three separated mechanical ventilators into three rooms of the house:
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+- living room
+- main bedroom
+- child bedroom
+
+The units that I have decided to install are [model name], from [company name]. These units have the following functionalities:
+
+- auto mode
+- surveillance mode
+- manual mode
+- air extraction
+- air [immissione]
+
+The problem is: each unit must be controlled separately (at least in the way that the [installatori] installed them in my house), and so I have to control them one by one through their remote controller. 
+
+[Figure of remote controller]
+
+So.. Here’s the reason for this blog post and for the posts that will follow. I have decided to design and develop a system able to control the units remotely, either via web, via a mobile application or through a central hub, offering also the possibility of having some sort of automation. → Requirements
