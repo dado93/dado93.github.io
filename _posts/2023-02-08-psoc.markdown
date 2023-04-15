@@ -2,7 +2,6 @@
 layout: single
 title:  "PSoC Introduction"
 date:   2023-02-08 15:26:00 +0100
-categories: psoc
 author: "Davide Marzorati"
 ---
 
