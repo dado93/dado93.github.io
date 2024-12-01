@@ -1,13 +1,11 @@
 main:
+  - title: "CV"
+    url: /_pages/cv
   - title: "Blog"
     url: /docs/quick-start-guide/
-  - title: "BSP"
-    url: /collection-archive/
-  - title: "CV"
-    url: /year-archive/
-  - title: "About"
-    url: /categories/
+  - title: "Publications"
+    url: /_pages/publications
   - title: "Contact"
-    url: /tags/
-  - title: "Pages"
-    url: /page-archive/
+    url: /contact/
+  #- title: "Pages"
+  #  url: /page-archive/
