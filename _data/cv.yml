@@ -77,8 +77,10 @@ cv:
         end_date: Now
         #summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
         highlights:
-          - Relativity
-          - Description 2.
+          - Preparation and submission of IRB documentation and project funding requests
+          - Project manager for clinical research projects, involving both academic and industrial partners in the medical field
+          - Implementation and real-world usage of wearable-based longitudinal data collection systems
+          - Development of AI algorithms and statistical models in the healthcare domain, leveraging wearable data collected in longitudinal clinical studies
 
       - company: Institute of Digital Technologies for Personalised Healthcare (MeDiTech)
         position: Researcher with PhD
@@ -86,9 +88,9 @@ cv:
         start_date: 2023
         end_date: 2026
         #summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+        #highlights:
+        #  - Relativity
+        #  - Description 2.
 
       - company: PRIMA Lab SA
         position: Research Scientist
@@ -96,14 +98,9 @@ cv:
         start_date: 2021
         end_date: 2023
         highlights:
-          - Description 1.
-          - Description 2.
+          - Project Manager for R&D projects involving the development of new in-vitro diagnostic (IVD) devices
+          - Statistical analysis for the performance assessment of IVD devices under IVDR
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Milan, Italy
-        start_date: 1917
-        end_date: 1933
 
       #- company: Karl-Ferdinand University
       #  position: Professor of Theoretical Physics
