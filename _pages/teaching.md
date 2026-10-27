@@ -16,7 +16,7 @@ During my PhD studies at Politecnico di Milano, I was teaching assistant for sev
 | --- | --- | --- | --- |
 | Linear Algebra 1 | Bachelor in Data Science and Artificial Intelligence | SUPSI | 2025–present |
 | Numerical Computing | Bachelor in Computer Science | SUPSI | 2023–present |
-| Elements of Signal Theory and Control | Bachelor in Data Science and Artificial Intelligence | SUPSI | 2025–present |
+| Elements of Signal Theory and Control | Bachelor in Data Science and Artificial Intelligence | SUPSI | 2025-present |
 | Medical Engineering Labs | Master of Science in Engineering | SUPSI | 2024-present |
 | AI Methods For Bioengineering Challanges | PhD in Bioengineering | Politecnico di Milano | 2023-2025 |
 | AI and Big Data in Hematology | | Accademia Nazionale di Medicina | 2021 |

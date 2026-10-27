@@ -7,12 +7,12 @@ cv:
   summary: I am a lecturer and researcher with a PhD in Bioengineering and a double MSc Degree (Politecnico di Milano, Italy; University of Illinois at Chicago, US). I am currently working at the MeDiTech Institute of SUPSI, acting both as a researcher and project manager for applied research projects. I'm passionate about clinical research, machine and deep learning applications in medicine, embedded systems, and project management.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
+    #- network: X
+    #  username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: dado93
     - network: LinkedIn
-      username: example
+      username: marzoratidavide
 
   #address:
   #  street: 2712 Broadway St
@@ -43,8 +43,8 @@ cv:
         start_date: 2016
         end_date: 2017
         score: "4.00/4.00"
-        #highlights:
-        #  - Description 1.
+        highlights:
+          - "GPA: 4.00/4.00"
         #  - Description 2.
       
       - institution: Politecnico di Milano
@@ -54,8 +54,8 @@ cv:
         start_date: 2015
         end_date: 2017
         score: "110/110 cum laude"
-        #highlights:
-        #  - Description 1.
+        highlights:
+          - "Final grade: 110/110 cum laude"
         #  - Description 2.
       
       - institution: Politecnico di Milano
@@ -65,8 +65,8 @@ cv:
         start_date: 2012
         end_date: 2015
         score: "103/110"
-        #highlights:
-        #  - Description 1.
+        highlights:
+          - "Final grade: 103/110"
         #  - Description 2.
 
     Experience:
@@ -100,6 +100,32 @@ cv:
         highlights:
           - Project Manager for R&D projects involving the development of new in-vitro diagnostic (IVD) devices
           - Statistical analysis for the performance assessment of IVD devices under IVDR
+      
+      - company: Politecnico di Milano
+        position: Researcher and Teaching Assistant
+        location: Milano, Italy
+        start_date: 2018
+        end_date: 2021
+        highlights:
+          - Automatic processing of biological signals for cuff-less blood pressure estimation
+          - Deep learning segmentation of bones in CT scans
+          - Teaching assistant for MSc Bioengineering courses
+
+      - company: Consorzio per il Trasferimento Tecnologico
+        position: External Consultant
+        location: Milano, Italy
+        start_date: 2019
+        end_date: 2020
+        highlights:
+          Application of machine learning techniques to predictive maintenance problems
+        
+      - company: Moviri SPA
+        position: IT Analyst
+        location: Milan, Italy
+        start_date: 2017
+        end_date: 2018
+        highlights:
+          Implementation of application monitoring solutions and of software functional tests
 
 
       #- company: Karl-Ferdinand University
@@ -125,21 +151,21 @@ cv:
     #      - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
     #      - "Men of the year 2014 by Time magazine"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    #Awards:
+    #  - title: Nobel Prize in Physics
+    #    authors:
+    #      - "Royal Swedish Academy of Sciences"
+    #    date: 1921-11-01
+    #    awarder: Royal Swedish Academy of Sciences
+    #    url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+    #    summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    #  - title: Max Planck Medal
+    #    authors:
+    #      - "German Physical Society"
+    #    date: 2029
+    #    awarder: German Physical Society
+    #    summary: Awarded for outstanding scientific achievement
 
     #Publications:
     #  - title: Zur Elektrodynamik bewegter Körper
@@ -167,50 +193,66 @@ cv:
     #    summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Machine and Deep Learning
+        #level: Master
+        #icon: fa-solid fa-hashtag
+        #keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Project management
+      - name: Programming
+      - name: Embedded Systems
+    
+    Activities:
+      - name: Treasurer
+
+
 
     Languages:
       - name: Italian
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent"
+        summary: "Fluent. TOEFL IBT, 105/120, Dec. 2014"
 
       - name: Spanish
-        summary: "Basic"
+        summary: "Basic. DELE, 84/100, May 2011"
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Photography
+      - name: Mechanical Keyboards
+      - name: Basketball
+        #icon: fa-solid fa-tag
+        #keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    #Certificates:
+    #  - name: Machine Learning
+    #    date: 2018-01-01
+    #    issuer: Stanford University
+    #    icon: fa-solid fa-location-dot
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+    #- name: Quantum Computing
+    #    date: 2018-01-01
+    #    issuer: Stanford University
+    #    icon: fa-solid fa-tag
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    #  - name: Quantum Information
+    #    date: 2018-01-01
+    #    issuer: Stanford University
+    #    icon: fa-solid fa-envelope
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: pywearable
+        summary: In this project, we developed a library for the harmonization, analysis, and visualization of longitudinal data collected from commercial wearable devices.
+        start_date: 2023
+        end_date: 2025
+
+      - name: RENEWAL
+        summary: A longitudinal study with a multi-modal data collection system focused on assessing the impact of telework on well-being and carbon emissions. As part of this project, I validated the data collection system, developed the full pipeline for data processing and harmonization, and conducted the longitudinal data analysis.
+        start_date: 2023
+        end_date: 2025
+      
+      - name: EQUI-TI
+        summary: Undertreatment in the Canton of Ticino - Nature, determinants, impact and downfalls. I am collaborating on this project with the Ente Ospedaliero Cantonale (EOC) and the Università della Svizzera Italiana (USI), supervising the data collection system used for the retrieval of wearable data.
+        start_date: 2026
 
     #References:
     #  - name: Professor John Doe
